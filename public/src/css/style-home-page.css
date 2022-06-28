@@ -1,0 +1,95 @@
+@charset "UTF-8"; 
+
+:root {
+    --background-green: #74f58e; 
+}
+
+
+.conteiner {
+    display: grid;
+    grid-template-columns: auto 400px auto ;
+    max-width: 1200px;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 4% auto 0 auto;
+}
+
+.about-api article p  {
+     border-left: 3px solid #95f1ac;
+     padding: 10px;
+}
+
+.about-api h2 {
+    margin: 10px 0 ;
+}
+
+.about-api h1{
+    font-size: 2.7em;
+}
+
+.image-reference-api {
+    display: flex;
+    align-items: center;
+    margin: 30px ;
+}
+
+#formDataUser {
+    display: block;
+    margin: auto;
+}
+
+#formDataUser input {
+    outline: none;
+    font-size: 15px;
+    border: 1px solid grey;
+    padding: 3px;
+    margin: 10px 0 0 0 ;
+}
+
+.image-reference-api img {
+    display: block;
+    margin: auto;
+}
+
+#btn-request-api {
+    background-color: #60e67b;
+    font-size: 18px;
+    display: block;
+    height: 36px;
+    border: 2px solid black;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 6px;
+    margin: 20px auto;
+}
+
+#btn-request-api a {
+    color: black;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 950px) {
+    .conteiner {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .image-reference-api {
+        display: block;
+        margin: auto;
+    }
+
+    .image-reference-api img {
+        margin: auto;
+    }
+
+    #btn-request-api {
+        font-size: 16px;
+        display: block;
+        margin: 20px auto;
+    }
+    
+}

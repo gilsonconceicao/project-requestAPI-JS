@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Options | Request</title>
+    <link rel="stylesheet" href="public/src/css/style-header-default.css"> 
+    <link rel="stylesheet" href="public/src/css/style-options-page.css">
+
+    <script src="src/js/requestApi.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Hello Node Request </h1>
+        <a class="btn-home" href="index.html">Home</a>
+    </header>
+    <div class="conteiner">
+        <h1>{ JSON } Placeholder</h1> 
+        <p>Escolha uma opção para realizar uma requisição. Aplicação feita com o método fetch para buscar URL HTTP.</p>
+
+        <div class="list-urls">
+          
+           
+            <form action="" id="form" method="">
+                <h3>Escolha uma opção para consultar</h3>
+                <ul >
+                    <li> 
+                        Users
+                        <input type="radio" 
+                        name="searchurl" 
+                        value="https://jsonplaceholder.typicode.com/users">
+                    </li>
+                    <li>
+                        Photos
+                        <input type="radio"
+                        name="searchurl"
+                        value="https://jsonplaceholder.typicode.com/photos">
+                    </li>
+                    <li>
+                        Posts
+                        <input type="radio"
+                        name="searchurl"
+                        value="https://jsonplaceholder.typicode.com/posts">
+                    </li>
+                    <li>
+                        Albums
+                        <input type="radio"
+                        name="searchurl"
+                        value="https://jsonplaceholder.typicode.com/albums">
+                    </li>
+                    <li>
+                        Todos
+                        <input type="radio"
+                        name="searchurl"
+                        value="https://jsonplaceholder.typicode.com/todos">
+                    </li>
+                </ul>
+                <button id="btnSubmitUrl">Realizar requisição</button>
+            </form>
+            
+            <div class="hide" id="response-text-request">
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

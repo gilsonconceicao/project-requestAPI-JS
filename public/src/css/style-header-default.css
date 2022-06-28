@@ -1,0 +1,30 @@
+@charset "UTF-8"; 
+
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400&family=Roboto&family=Ubuntu:wght@300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Heebo', sans-serif;
+}
+
+:root {
+    --background-green: #74f58e; 
+}
+
+header {
+    background-color: var(--background-green);
+    padding: 10px;
+}
+
+header h1 {
+    background-color: #ffffff;
+    color: #242424;
+    border: 2px solid #242424;
+    max-width: 300px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 28px;
+    display: block;
+    margin: auto;
+    padding: 4px;
+}
